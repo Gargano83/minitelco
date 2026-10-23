@@ -1,0 +1,9 @@
+# Fine riga Linux (LF) per tutti i file di testo, anche se modificati da Windows
+* text=auto eol=lf
+
+# File binari: nessuna conversione
+*.png binary
+*.jpg binary
+*.pcap binary
+*.pcapng binary
+*.zip binary

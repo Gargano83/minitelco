@@ -1,0 +1,32 @@
+# Dati della rete di casa: privati, mai nel repository pubblico
+home-network/
+
+# Segreti e credenziali
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# containerlab: cartelle create a ogni avvio di un laboratorio
+clab-*/
+
+# Java e Maven
+target/
+
+# Editor e sistema operativo
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
